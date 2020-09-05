@@ -10,3 +10,8 @@
 .navbar-brand{
     padding:10px;
 }
+
+.line {
+    height:10px;
+    width:100%;
+}
