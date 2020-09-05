@@ -2,3 +2,11 @@
     width:150px;
     height: 150px;
 }
+
+
+.myContent{
+    float:right;
+}
+.navbar-brand{
+    padding:10px;
+}
