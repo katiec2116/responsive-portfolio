@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Assets/css/style.css" .css">
+    <link rel="stylesheet" href="./Assets/css/style.css"">
     <title>Contact</title>
 </head>
 
@@ -21,9 +21,9 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" href="#">About <span class="sr-only">(current)</span></a>
+                    <a class="nav-link active" href="http://127.0.0.1:5500/index.html">About <span class="sr-only">(current)</span></a>
                     <a class="nav-link" href="#">Portfolio</a>
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="http://127.0.0.1:5500/contact.html">Contact</a>
                 </div>
             </div>
         </div>
@@ -32,13 +32,13 @@
     <main class="container mt-5">
         <div class="row">
             <div class="col-md-8 bg-white">
-                <h1>Contact</h1>
-                <hr class = "line">
+                <h1 class="text-info">Contact</h1>
+                <hr class="line">
                 <form>
                     <div class="form-group">
                         <label for="name">Name</label>
                         <input type="text" class="form-control" id="name" placeholder="Jane Doe">
-                      </div>
+                    </div>
                     <div>
                         <label for="exampleInputEmail1">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="example@gmail.com"
@@ -47,7 +47,9 @@
                     <div class="form-group">
                         <label for="message"> Message</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
-                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-info">Submit</button>
+                </form>
 </body>
 
 </html>
