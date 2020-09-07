@@ -11,7 +11,10 @@
     padding:10px;
 }
 
-.line {
-    height:10px;
-    width:100%;
+#footer {
+    background-color: #666666;
+}
+
+#background {
+    background-image: url(../Images/moroccan-flower.png)
 }
