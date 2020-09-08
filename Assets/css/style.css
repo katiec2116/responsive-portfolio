@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+body {
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+ }
+
 #myPic{
     width:150px;
     height: 150px;
@@ -9,11 +15,12 @@
 }
 
 #border-bottom {
-    border-bottom: 4px solid #dbdddf;
+    border-bottom: 3px solid #dbdddf;
     }
 
 .backgroundStuff {
     border:1px solid lightgrey;
+    padding:20px;
 }
 
 #background{
@@ -28,15 +35,13 @@ h1{
     border-bottom:3px solid lightgrey;
 }
 
-.myContent{
-    float:right;
-}
 .navbar-brand{
     padding:20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
     color: white;
     font-weight: 600;
+    margin-right:0;
 }
 
 .navbar{
@@ -48,20 +53,9 @@ h1{
     border-top: 6px solid teal !important;
 }
 
-.card-img-top {
-    height: 300px;
-    width: 300px;
-}
-
 .img {
     margin:20px;
 }
-
-body {
-    min-height: 400px;
-    margin-bottom: 100px;
-    clear: both;
- }
 
  .floatLeft{
     float: left;
@@ -86,11 +80,11 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: blue;
-    padding:5px;
+    padding:2% 10%;
 }
 
 .container1{
-        position: relative;
-        text-align: center;
-        color: lightgrey;
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
 }
