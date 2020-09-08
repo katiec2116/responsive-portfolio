@@ -12,6 +12,9 @@
     border-bottom: 4px solid #dbdddf;
     }
 
+.backgroundStuff {
+    border:1px solid lightgrey;
+}
 
 #background{
     background-image: url(../Images/moroccan-flower.png);
@@ -22,6 +25,7 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 600;
     color: teal;
+    border-bottom:3px solid lightgrey;
 }
 
 .myContent{
@@ -76,6 +80,17 @@ body {
         }
 }
 
+.banner {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: blue;
+    padding:5px;
+}
 
-
-        
+.container1{
+        position: relative;
+        text-align: center;
+        color: lightgrey;
+}
