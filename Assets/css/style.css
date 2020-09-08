@@ -13,8 +13,5 @@
 
 #footer {
     background-color: #666666;
-}
-
-#background {
-    background-image: url(../Images/moroccan-flower.png)
+    border-top:10px teal;   
 }
