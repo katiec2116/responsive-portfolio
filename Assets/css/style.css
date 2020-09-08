@@ -8,31 +8,36 @@ body {
     clear: both;
  }
 
-#myPic{
-    width:150px;
-    height: 150px;
-    margin:20px;
+ h1{
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #4aaaa5;
+    border-bottom:3px solid lightgrey;
 }
 
-#border-bottom {
-    border-bottom: 3px solid #dbdddf;
-    }
+ .container1{
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.banner {
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#4aaaa5;
+    padding:2% 10%;
+}
+
+.bBack {
+    background-color: #4aaaa5;
+}
 
 .backgroundStuff {
     border:1px solid lightgrey;
     padding:20px;
-}
-
-#background{
-    background-image: url(../Images/moroccan-flower.png);
-}
-
-h1{
-    padding: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 600;
-    color: teal;
-    border-bottom:3px solid lightgrey;
 }
 
 .navbar-brand{
@@ -48,13 +53,29 @@ h1{
     padding:0px;
 }
 
+#myPic{
+    width:150px;
+    height: 150px;
+    margin:20px;
+}
+
+#border-bottom {
+    border-bottom: 3px solid #cccccc;
+    }
+
+#background{
+    background-image: url(../Images/moroccan-flower.png);
+}
+
 #footer {
-    background-color: #726f6f;
-    border-top: 6px solid teal !important;
+    background-color: #666666;
+    border-top: 6px solid #4aaaa5 !important;
 }
 
 .img {
     margin:20px;
+    height:200px;
+    width:200px;
 }
 
  .floatLeft{
@@ -72,19 +93,7 @@ h1{
         .col-sm-6{
             width: 100%;
         }
-}
-
-.banner {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: blue;
-    padding:2% 10%;
-}
-
-.container1{
-    position: relative;
-    text-align: center;
-    color: whitesmoke;
+        .container{
+            width:100%;
+        }
 }
