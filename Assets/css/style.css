@@ -5,16 +5,12 @@
 #myPic{
     width:150px;
     height: 150px;
-    float:left;
 }
 
 #border-bottom {
     border-bottom: 4px solid #dbdddf;
     }
 
-#name{
-    color: whitesmoke;
-}
 
 
 #background{
@@ -62,3 +58,11 @@ body {
     margin-bottom: 100px;
     clear: both;
  }
+
+ #floatLeft{
+    float: left;
+}
+
+.floatRight{
+    float: right;
+}
