@@ -59,7 +59,7 @@ body {
     clear: both;
  }
 
- #floatLeft{
+ .floatLeft{
     float: left;
 }
 
@@ -67,12 +67,15 @@ body {
     float: right;
 }
 
-$grid-breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1366px,
-  xxxl: 1920px
-)
+@media screen and (max-width:640px) {
+        .navbar-brand{
+            width:100%;
+        }
+        .col-sm-6{
+            width: 100%;
+        }
+}
+
+
+
+        
