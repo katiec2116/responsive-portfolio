@@ -5,12 +5,12 @@
 #myPic{
     width:150px;
     height: 150px;
+    margin:20px;
 }
 
 #border-bottom {
     border-bottom: 4px solid #dbdddf;
     }
-
 
 
 #background{
@@ -41,7 +41,7 @@ h1{
 
 #footer {
     background-color: #726f6f;
-    border-top: 6px solid #0280c9 !important;
+    border-top: 6px solid teal !important;
 }
 
 .card-img-top {
