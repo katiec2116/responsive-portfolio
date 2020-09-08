@@ -16,12 +16,13 @@ body {
     border-bottom:3px solid lightgrey;
 }
 
+/* container for portfolio elements */
  .container1{
     position: relative;
     text-align: center;
     color: whitesmoke;
 }
-
+/* formatting for portfolio buttons */
 .banner {
     position: absolute;
     top: 77%;
@@ -31,6 +32,7 @@ body {
     padding:5px 30px 5px 30px;
 }
 
+/* color for navbar brand, submit button, and porfolio buttons */
 .bBack {
     background-color: #4aaaa5;
 }
@@ -40,6 +42,7 @@ body {
     padding:20px;
 }
 
+/* styling for navbar brand element */
 .navbar-brand{
     padding:10px 20px 10px 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
