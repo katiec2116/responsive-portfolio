@@ -1,7 +1,15 @@
 #myPic{
     width:150px;
     height: 150px;
-    float: left;
+    float:left;
+}
+
+.border-bottom {
+    border-bottom: 7px solid #dbdddf !important;
+    }
+}
+.name{
+    padding: 20px;
 }
 
 #background{
@@ -21,5 +29,5 @@
 }
 
 .border-top {
-    border-top: 10px solid #0280c9 !important;
+    border-top: 6px solid #0280c9 !important;
 }
