@@ -1,6 +1,11 @@
 #myPic{
     width:150px;
     height: 150px;
+    float: left;
+}
+
+#background{
+    background-image: url(../Images/moroccan-flower.png);
 }
 
 
@@ -12,6 +17,9 @@
 }
 
 #footer {
-    background-color: #666666;
-    border-top:10px teal;   
+    background-color: #726f6f;
+}
+
+.border-top {
+    border-top: 10px solid #0280c9 !important;
 }
