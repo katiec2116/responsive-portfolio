@@ -1,16 +1,21 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
 #myPic{
     width:150px;
     height: 150px;
     float:left;
 }
 
-.border-bottom {
-    border-bottom: 7px solid #dbdddf !important;
+#border-bottom {
+    border-bottom: 4px solid #dbdddf;
     }
+
+#name{
+    color: whitesmoke;
 }
-.name{
-    padding: 20px;
-}
+
 
 #background{
     background-image: url(../Images/moroccan-flower.png);
@@ -27,13 +32,23 @@ h1{
     float:right;
 }
 .navbar-brand{
-    padding:10px;
+    padding:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+}
+
+.navbar{
+    padding:0px;
 }
 
 #footer {
     background-color: #726f6f;
+    border-top: 6px solid #0280c9 !important;
 }
 
-.border-top {
-    border-top: 6px solid #0280c9 !important;
+.card-img-top {
+    height: 300px;
+    width: 300px;
 }
