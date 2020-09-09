@@ -73,6 +73,7 @@ body {
 #footer {
     background-color: #666666;
     border-top: 6px solid #4aaaa5 !important;
+    height: 55px;
 }
 
 /* format portfolion pages */
