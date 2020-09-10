@@ -21,7 +21,7 @@ This is a responsive portfolio site built utilizing bootstrap
 
 ## License
 
-GNU General Public License
+MIT License
 
 
 ## Tests
