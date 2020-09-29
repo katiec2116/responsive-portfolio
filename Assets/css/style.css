@@ -26,10 +26,14 @@ body {
 .banner {
     position: absolute;
     top: 77%;
-    left: 51%;
+    left: 50%;
     transform: translate(-50%, -50%);
     background-color:#4aaaa5;
-    padding:5px 30px 5px 30px;
+    padding:1% 2% 1% 2%;
+    border:2px solid white;
+}
+a{
+    color:white !important;
 }
 
 /* color for navbar brand, submit button, and porfolio buttons */
@@ -76,7 +80,7 @@ body {
     height: 55px;
 }
 
-/* format portfolion pages */
+/* format portfolio pages */
 .img {
     margin:20px;
     height:200px;
@@ -107,8 +111,9 @@ body {
 .pLink{
     color:white;
 }
-.pLink:hover {
-    font-size: 18px;
+.banner:hover {
+    border: 4px solid white;
+    color:white;
 }
 
 /* Style all font awesome icons */
