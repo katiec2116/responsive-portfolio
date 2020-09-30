@@ -146,10 +146,6 @@ a.nav-link{
   }
   
   /* coloring for individual icons */
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
   .fa-linkedin {
     background: #007bb5;
     color: white;
@@ -160,7 +156,4 @@ a.nav-link{
   }
   .fa-github:hover{
       color: #430280;
-  }
-  .fa-twitter:hover{
-    color: #55acee;
   }
