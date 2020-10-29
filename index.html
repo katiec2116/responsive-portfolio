@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,62 +13,252 @@
     <title>About</title>
 </head>
 
-<body id="background">
+<body>
     <nav class="navbar navbar-expand-lg py-3">
-        <div class="container px-0">
-            <a class="navbar-brand" href="index.html">KATIE CAMPBELL</a>
-            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="index.html">About</a>
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    <a class="nav-link" href="contact.html">Contact</a>
-                    <a class="nav-link" href="resume.html">Resume</a>
-                </div>
+        <a class="navbar-brand" href="index.html">KATIE CAMPBELL</a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
+            data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link" id="resume" href="resume.html">Resume</a>
             </div>
         </div>
     </nav>
-    <main class="container mt-5">
-        
-                <img id="myPic" src="./Assets/Images/circle-cropped.png">
-                <h2 class = "name text-center"> KATIE CAMPBELL</h2>
-                <img id="star" src="./Assets/Images/output2.png" width = 500px>
-            
-        </div>
-        <div class="row aboutMe">
-            <div class="col-md-2"></div>
-            <div class="col-md-8 bg-white backgroundStuff p-4">
-                <h1>About Me</h1>
-                <p>
-                    I'm from Melbourne, FL and moved to downtown Orlando at the beginning of 2020 to be closer to my job.
-                    I'm a double gradute from Florida State University. I first graduated in 2017
-                    with my bachelor's in environmental science and then I graduated in 2019 with my
-                    masters in geographic information science. I've been working for Orange County Government as a GIS
-                    Specialist for over a year now.
-                </p>
-                <p>
-                    I'm currently taking an intensive full stack web development bootcamp through the University of Central Florida. The languages we are focusing on are HTML, CSS, Javascript, JQuery, Node, Handlebars, MySQL, MongoDB, Express, and React and I also have past experience with C++ and Python. I love accomplishing goals as part of a team, and look forward to working with like-minded individuals.
-                    
-                </p>
+    <div class="containerTop">
+        <h2 class="name text-center scale-up-center"> KATIE CAMPBELL</h2>
+        <p class = "blurb text-center">Full Stack Web Developer</p>
+        <img id="star" src="./Assets/Images/output2.png" width=35%>
+
+    </div>
+    <main>
+        <section id="about" >
+            <div class="container py-5">
+                <div class= "row">
+                    <div class = "col-md-12 text-center aboutMe">
+                        <h1 class = "mb-3">ABOUT ME</h1>
+                    </div>
+                </div>
+                <div class="row aboutText text-white">
+                    <div class="col-md-12">
+                        <img id="myPic" src="./Assets/Images/circle-cropped.png" class = "float-left">
+                        <p>
+                            I'm from Melbourne, FL and moved to downtown Orlando at the beginning of 2020 to be closer
+                            to my
+                            job.
+                            I'm a double gradute from Florida State University. I first graduated in 2017
+                            with my bachelor's in environmental science and then I graduated in 2019 with my
+                            masters in geographic information science. I've been working for Orange County Government as
+                            a
+                            GIS
+                            Specialist for over a year now.
+                        </p>
+                        <p>
+                            I'm currently taking an intensive full stack web development bootcamp through the University
+                            of
+                            Central Florida. The languages we are focusing on are HTML, CSS, Javascript, JQuery, Node,
+                            Handlebars, MySQL, MongoDB, Express, and React and I also have past experience with C++ and
+                            Python.
+                            I love accomplishing goals as part of a team, and look forward to working with like-minded
+                            individuals.
+
+                        </p>
+                </div>
             </div>
-            <div class="col-md-2"></div>
-        </div>
+        </section>
+        <section>
+            <div id="portfolio" class="row py-5 mt-5">
+                <div class="container">
+                    <div class="col-md-12">
+                        <h1 class = "text-center mb-5">PORTFOLIO</h1>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card portfolioCard">
+                                    <img class="card-img-top" src="./Assets/Images/8020500.jpg" alt="80/20 Rule">
+                                    <div class="card-body rounded-bottom">
+                                        <p class="card-text">
+                                            80/20 Rule
+                                            <br>
+                                            <a class="pLink" href="https://katiec2116.github.io/80-20-Rule/"
+                                                target="_blank">
+                                                Deployed App</a>
+                                            <br>
+                                            <a class="pLink" href="https://github.com/katiec2116/80-20-Rule"
+                                                target="_blank">GitHub Repository</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card portfolioCard">
+                                    <img class="card-img-top" src="./Assets/Images/alien500.jpg" alt="Alien Town">
+                                    <div class="card-body rounded-bottom">
+                                        <p class="card-text">
+                                            Alien Town
+                                            <br>
+                                            <a class="pLink" href="http://mega-awesome.herokuapp.com/"
+                                                target="_blank">Deployed
+                                                App</a>
+                                            <br>
+                                            <a class="pLink" href="https://github.com/katiec2116/alientown"
+                                                target="_blank">GitHub Repository</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card portfolioCard">
+                                    <img class="card-img-top" src="./Assets/Images/code500.jpg" alt="quiz">
+                                    <div class="card-body rounded-bottom">
+                                        <p class="card-text">
+                                            Coding Quiz Challenge
+                                            <br>
+                                            <a class="pLink" href="https://katiec2116.github.io/Coding-Quiz-Challenge/"
+                                                target="_blank"> Deployed App</a>
+                                            <br>
+                                            <a class="pLink" href="https://github.com/katiec2116/Coding-Quiz-Challenge"
+                                                target="_blank">GitHub Repository</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card portfolioCard">
+                                    <img class="card-img-top" src="./Assets/Images/weather500.png"
+                                        alt="weather dashboard">
+                                    <div class="card-body rounded-bottom">
+                                        <p class="card-text">
+                                            Weather Dashboard
+                                            <br>
+                                            <a class="pLink" href="https://katiec2116.github.io/weather-dashboard/"
+                                                target="_blank">Deployed App</a>
+                                            <br>
+                                            <a class="pLink" href="https://github.com/katiec2116/weather-dashboard"
+                                                target="_blank">GitHub Repository</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card portfolioCard">
+                                    <img class="card-img-top" src="./Assets/Images/note500.png" alt="Note Taker">
+                                    <div class="card-body rounded-bottom">
+                                        <p class="card-text">
+                                            Note Taker
+                                            <br>
+                                            <a class="pLink" href="https://boiling-journey-74250.herokuapp.com/"
+                                                target="_blank"> Deployed App</a>
+                                            <br>
+                                            <a class="pLink" href="https://github.com/katiec2116/note-taker"
+                                                target="_blank">GitHub Repository</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card portfolioCard">
+                                    <img class="card-img-top" src="./Assets/Images/burger500.gif" alt="Burger">
+                                    <div class="card-body rounded-bottom">
+                                        <p class="card-text">
+                                            Eat-Da-Burger
+                                            <br>
+                                            <a class="pLink" href="https://safe-inlet-06204.herokuapp.com/"
+                                                target="_blank">Deployed App</a>
+                                            <br>
+                                            <a class="pLink" href="https://github.com/katiec2116/burger"
+                                                target="_blank">GitHub
+                                                Repository</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card portfolioCard">
+                                    <img class="card-img-top" src="./Assets/Images/workday500.png"
+                                        alt="Workday scheduler">
+                                    <div class="card-body rounded-bottom">
+                                        <p class="card-text">
+                                            Work Day Scheduler
+                                            <br>
+                                            <a class="pLink" href="https://katiec2116.github.io/Work-Day-Scheduler/"
+                                                target="_blank"> Deployed App</a>
+                                            <br>
+                                            <a class="pLink" href="https://github.com/katiec2116/Work-Day-Scheduler"
+                                                target="_blank">GitHub Repository</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="about" >
+            <div class="container py-5 my-5">
+                <div class= "row">
+                    <div class = "col-md-12 text-center">
+                        <h1 class = "mb-3">RESUME</h1>
+                        <p class = "resume">Checkout my resume for more information!</p>
+                        <a href = "/resume.html"><button type = "button" class = "btn btn-light">View or Download</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="contact" class="row py-5 my-5">
+                <div class="containerContact my-5">
+                    <div class="col-md-12">
+                        <div class="form-body">
+                            <div class="form-body-item left">
+                                <h1 class="form-title">
+                                    CONTACT
+                                    ME
+                                </h1>
+                            </div>
+                            <div class="form-body-item">
+                                <div class="form">
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="NAME">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="EMAIL">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="CONTACT NO">
+                                    </div>
+                                    <div class="form-group message">
+                                        <textarea class="form-control" placeholder="MESSAGE"></textarea>
+                                    </div>
+                                    <div class="form-group buttons">
+                                        <button class="form-button">CANCEL</button>
+                                        <button type="submit" class="form-button">SEND</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer id="footer" class="py-2 text-white fixed-bottom border-top">
+    <footer id="footer" class="py-2 fixed-bottom border-top">
         <div class="container footer-text text-center">
-            Connect with me: 
+            Connect with me:
 
-                <a href="https://www.linkedin.com/in/katiec2116/" target="_blank" class="fa fa-linkedin"></a>
-                <a href="https://github.com/katiec2116" target="_blank" class="fa fa-github"></a>
-            
-                <p>321-609-0533 | <a href="mailto:KatieCampbell21@outlook.com">KatieCampbell21@outlook.com</a></p>
-            
+            <a href="https://www.linkedin.com/in/katiec2116/" target="_blank" class="fa fa-linkedin"></a>
+            <a href="https://github.com/katiec2116" target="_blank" class="fa fa-github"></a>
+            <p>321-609-0533 | <a href="mailto:KatieCampbell21@outlook.com">katiecampbell21@outlook.com</a></p>
         </div>
     </footer>
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
