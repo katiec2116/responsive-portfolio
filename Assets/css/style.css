@@ -50,7 +50,7 @@ p.resume{
     font-size: 20px
 }
 
-.top{
+#top{
     padding-top: 15%;
     padding-bottom:15%;
     
@@ -71,9 +71,13 @@ p.resume{
     font-size: 38px;
     color: whitesmoke;
     padding-left: 2%;
-    
-    
 }
+
+.navbar-brand:hover{
+  /* font-weight:900; */
+  color:rgb(6, 184, 255);
+}
+
 a.nav-link{
     font-size: 18px;
     color: whitesmoke;
@@ -180,6 +184,11 @@ a.nav-link:hover{
 .card-body{
     height: 100px;
     background-color: grey;
+    padding:10px
+}
+
+.card-text{
+  font-size:90%;
 }
 
 #footer {
