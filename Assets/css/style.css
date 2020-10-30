@@ -39,9 +39,6 @@ p{
 }
 
 .container{
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
     width:100%;
 }
 
@@ -120,9 +117,11 @@ a.nav-link:hover{
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: bold;
     font-size: 100px;
-    letter-spacing: 15px;
-
 }
+.name1{
+  letter-spacing: 15px;
+}
+
 
 .blurb{
     color: whitesmoke;
@@ -366,6 +365,26 @@ a.nav-link:hover{
   }
 }
 
+@media screen and (max-width:400px) {
+  .name{
+    font-size:30px !important;
+    margin-top:70px
+    
+  }
+  .navbar{
+    padding-right:0 !important;
+}
+h1{
+  font-size: 40px; 
+}
+.navbar-brand{
+  font-size: 25px;
+  margin:0;
+  padding:0;
+  text-align: center;
+}
+}
+
 @media screen and (max-width: 600px) {
   .form-body {
     padding: 40px;
@@ -378,10 +397,6 @@ a.nav-link:hover{
 
 /* formats screen at custom small size */
 @media screen and (max-width:640px) {
-    .navbar-brand{
-        width:100%;
-        font-size:35px
-    }
     .col-sm-6{
         width: 100%;
     }
@@ -397,3 +412,10 @@ a.nav-link:hover{
   
   }
   
+  @media screen and (max-width:768px) {
+    .name{
+      font-size:60px;
+      margin-top:70px
+      
+    }
+  }
