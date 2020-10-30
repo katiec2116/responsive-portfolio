@@ -9,24 +9,9 @@ This is a responsive portfolio site built utilizing bootstrap
 
 ## Features
 
-- Easily switch between pages using the navigation bar on the top of the screen
+- Use the navigation bar on the top of the screen to jump to different points on the page
 - Use the contact form to send me a message
 - Click on an image under the porfolio tab to go the the repositiory for that project
-
-
-![](recording.gif)
-
-
-
-
-## License
-
-MIT License
-
-
-## Tests
-
-No tests available
 
 
 ## Questions?
